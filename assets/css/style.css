@@ -1,4 +1,4 @@
-/* Formatting to clear preset padding and margins */
+/* Formatting to clear preset padding and margins for all emements */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -18,7 +18,7 @@ body {
     color: #ffffff;
 }
 
-/*Formating of title test for header */
+/*Formating of title text for header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -28,7 +28,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-/* changed the selector div to nav to meet WCAG,  */
+/*  styles and sets the navigation bar at the top of the page  */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -37,14 +37,12 @@ body {
     font-size: 20px;
 }
 
-/* changed the selector div to nav to meet WCAG */
-
+/* styles list for navigation items  */
 .header nav ul {
     list-style-type: none;
 }
 
-/* changed the selector div to nav to meet WCAG */
-
+/* sets list items display style and margins */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -61,7 +59,7 @@ p {
     font-size: 16px;
 }
 
-/* banner image */
+/* banner image styling */
 .hero {
     height: 800px;
     width: 100%;
@@ -72,8 +70,7 @@ p {
 }
 
 /* formatting for primary content block, moved up in the document to follor HTML structure*/
-
-/* created class "box" to edit the sections with class "box". */
+/* styling for text boxes in main content section */
 section.box{
     margin-bottom: 20px;
     padding: 50px;
@@ -82,8 +79,6 @@ section.box{
     background-color: #0072bb;
     color: #ffffff;
 }
-
-
 
 /* created class "box" to edit all images in all content boxes */
 .box img {
@@ -96,27 +91,27 @@ section.box{
     font-size: 36px;
 }
 
-
-/* image in the top and bottom content box */
+/* image in the first and third content box */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/* image in the middle content box */
+/* image in the second content box */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/* image in the bottom content box */
+/* sets display styling for primary content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* box of content on the right of page */
+/* formatting for the side bar */
+/* sets styling for the sidebar */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -128,68 +123,33 @@ section.box{
     background-color: #2589bd;
 }
  /* sets bottom margins for the section content */
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* sets bottom margins for the section content */
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* sets bottom margins for the section content */
-.benefit-cost {
+.side-bar {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* sets bottom margins for the section heading */
-.benefit-lead h3 {
+.side-bar h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* sets bottom margins for the section heading */
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* sets bottom margins for the section heading */
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-
-.benefit-lead img {
+/* sets image display in side bar */
+.side-bar img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* formatting for fotter */
+/* formatting for the footer */
+/* sets  styling for footer */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
- /* formatting for footer heading */
+ /* sets font for footer heading */
 .footer h2 {
     font-size: 20px;
 }
